@@ -1,0 +1,126 @@
+body{
+	background-color: rgba(221,190,169,0.4);
+	margin: 0;
+	padding: 0;
+	
+}
+
+@font-face{ 
+	font-family: "Adorn";
+	src: url('../../../../font/Adorn.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "policep";
+	src: url('../../../../font/policep.ttf') format('truetype');
+}
+
+#entete{
+	display: flex; 
+	flex-direction: flex-end;
+	align-content: space-between;
+}
+
+.logo{
+	width: 150px;
+	height: 151px;
+	box-shadow: 0px 4px 4px rgb(203,153,126);
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.barre{
+	height: 5px;
+	background-color: rgb(203,153,126);
+}
+
+h1{
+	font-family: "Adorn";
+	font-size: 100px;
+	color: rgb(203,153,126);
+	text-shadow: 0px 7px 7px rgb(203,153,126);
+	margin-left: 100px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+h2{
+	font-family: "Adorn";
+	font-size: 50px;
+	color: rgb(203,153,126);
+	text-shadow: 0px 4px 4px rgb(203,153,126);
+}
+
+h3{
+	font-family: "Adorn";
+	color: rgb(203,153,126);
+	text-shadow: 0px 4px 4px rgb(203,153,126);
+}
+
+p{
+	font-family: "policep";
+	font-size: 30px;
+	text-align: justify;
+}
+
+footer{
+	display: block;
+	text-align: center;
+	background-color: rgb(203,153,126);
+	margin-top: 15px;
+	height: 70px;
+	padding-top: 6px;
+
+}
+
+a{
+	font-family: "Adorn";
+	color: rgb(203,153,126);
+	text-shadow: 0px 4px 4px rgb(203,153,126);	
+}
+
+.foot{
+	text-align: center;
+	font-size: 20px;
+}
+
+.img_article{
+	width: 300px;
+	height: 460px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+.retour .accueil{
+	float: right;
+}
+
+.citation{
+	width: 300px;
+	font-family: "policep";
+	font-size: 30px;
+	color: rgb(107,112,92);
+	text-shadow: 0px 4px 4px rgb(107,112,92);
+	float: right;
+	margin-left: 15px;
+	padding: 15px;
+	height: 250px;
+}
+.citation1{
+	width: 300px;
+	font-family: "policep";
+	font-size: 30px;
+	text-align: left;
+	color: rgb(107,112,92);
+	text-shadow: 0px 4px 4px rgb(107,112,92);
+	float: left;
+	margin-right: 15px;
+	padding: 15px;
+	height: 100px;
+}
