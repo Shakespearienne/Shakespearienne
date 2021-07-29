@@ -1,0 +1,222 @@
+body{
+	background-color: rgba(221,190,169,0.4);
+	margin: 0;
+	padding: 0;
+	
+}
+
+@font-face{ 
+	font-family: "Adorn";
+	src: url('../../font/Adorn.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "policep";
+	src: url('../../font/policep.ttf') format('truetype');
+}
+
+#entete{
+	display: flex; 
+	flex-direction: flex-end;
+	align-content: space-between;
+}
+
+.logo{
+	width: 150px;
+	height: 151px;
+	box-shadow: 0px 4px 4px rgb(203,153,126);
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.barre{
+	height: 5px;
+	background-color: rgb(203,153,126);
+}
+
+
+nav{
+	font-family: "Adorn";
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 430px;
+}
+
+nav li{
+    margin: 50px;
+    
+}
+
+nav {
+	font-size: 2em;
+    color: rgb(203,153,126);
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgb(203,153,126)
+}
+
+#menu_deroulant{
+	margin-left: 430px;
+} 
+
+
+#menu_deroulant ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+}
+
+#menu_deroulant li{
+	display: inline-block;
+}
+
+#menu_deroulant ul li {
+	display: inherit;
+}
+
+#menu_deroulant a{
+	text-decoration: none;
+	display: block;
+	color: rgb(203,153,126);
+	text-shadow: 0px 4px 4px rgb(203,153,126);	
+}
+
+#menu_deroulant ul{
+	position: absolute;
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+}
+
+#menu_deroulant li:hover ul{
+	left: auto;
+}
+
+.sous_menu{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0;
+	font-size: 0.8em;	
+}
+
+.sous_menu li{
+	margin: 10px;
+}
+
+.sous_menu ul{
+	list-style-type: none;
+    display: flex;
+    margin-left: 0px;
+}
+
+h1{
+	font-family: "Adorn";
+	font-size: 100px;
+	color: rgb(203,153,126);
+	text-shadow: 0px 7px 7px rgb(203,153,126);
+	margin-left: 100px;
+
+}
+
+h2{
+	font-family: "Adorn";
+	color: rgb(203,153,126);
+	text-shadow: 0px 4px 4px rgb(203,153,126)
+}
+
+h3{
+	font-family: "Adorn";
+	color: rgb(107,112,92);
+	text-shadow: 0px 4px 4px rgb(107,112,92)
+}
+
+p, label{
+	font-family: "policep";
+	font-size: 20px;
+}
+
+aside{
+	display: inline-block; 
+    vertical-align: top;
+    text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;  
+}
+
+.ul_articlessup{
+	list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-family: "policep";
+    font-size:20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+footer{
+	display: block;
+	text-align: center;
+	background-color: rgb(203,153,126);
+	margin-top: 15px;
+	height: 70px;
+	padding-top: 6px;
+}
+
+#box{
+	display: flex;
+	align-items: stretch;
+}
+
+#section{
+	display: flex;
+	width: 70%;
+	margin-top: 60px;
+}
+
+.article1{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right:10px;
+	border: 1px rgb(203,153,126) solid;
+	box-shadow: 0px 2px 5px rgb(203,153,126);
+}
+
+.article2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right:10px;
+	border: 1px rgb(203,153,126) solid;
+	box-shadow: 0px 2px 5px rgb(203,153,126);
+}
+
+.articlessup{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 2px 5px rgb(183,183,164);
+	background-color: rgba(183,183,164,0.5);
+}
+
+.contact{
+	justify-content: center;
+	margin-top:40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 200px;
+	height: 350px;
+	box-shadow: 0px 2px 5px rgb(183,183,164);
+	background-color: rgba(183,183,164,0.5);
+}
